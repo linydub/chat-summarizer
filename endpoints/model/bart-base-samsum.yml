@@ -1,0 +1,5 @@
+   
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: bart-base-samsum
+version: 1
+local_path: bart-base-samsum

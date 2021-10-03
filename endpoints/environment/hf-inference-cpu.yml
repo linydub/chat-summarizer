@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: hf-inference-cpu
+version: 1
+docker:
+    image: mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04:latest
+conda_file: file:conda-hf-cpu.yml
